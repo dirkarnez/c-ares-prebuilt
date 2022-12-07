@@ -14,7 +14,7 @@ jobs:
       libraryName: c-ares
       cmakeInstallationPath: c-ares-installation
       tagName: cares-1_18_1
-      mingwTargetZip: c-ares-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
+      mingwTargetZip: c-ares-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: git clone
         shell: cmd
